@@ -1,13 +1,14 @@
 {
   "name": "ember-cli-urls",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An add-on for managing urls for different execution environments.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "urls"
   ],
-  "repository": "",
-  "license": "MIT",
-  "author": "",
+  "repository": "onehilltech/ember-cli-urls",
+  "license": "Apache-2.0",
+  "author": "One Hill Technologies, LLC",
   "directories": {
     "doc": "doc",
     "test": "tests"
