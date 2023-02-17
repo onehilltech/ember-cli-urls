@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-urls",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An add-on for managing urls for different execution environments.",
   "keywords": [
     "ember-addon",
