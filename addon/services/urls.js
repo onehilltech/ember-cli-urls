@@ -13,7 +13,7 @@ export default class UrlsService extends Service {
 
   resolve (name, path) {
     const host = URL_CACHE.get (name);
-    assert (`The url for ${name} does not exist. Please add ${name} to your environment settings.`);
+    assert (`The url for ${name} does not exist. Please add ${name} to your environment settings.`, !!host);
 
     return `${host}/${path}`;
   }
